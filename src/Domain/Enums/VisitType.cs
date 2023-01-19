@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Order.Domain.Entities;
-public class Order
+namespace Order.Domain.Enums;
+public enum VisitType
 {
-    public string? Reason { get; set; }
+    Attendance,Remotly
 }
