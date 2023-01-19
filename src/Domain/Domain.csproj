@@ -5,7 +5,7 @@
         <RootNamespace>Order.Domain</RootNamespace>
         <AssemblyName>Order.Domain</AssemblyName>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <!--<Nullable>enable</Nullable>-->
     </PropertyGroup>
 
     <ItemGroup>
