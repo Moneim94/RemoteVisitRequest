@@ -5,7 +5,6 @@
         <RootNamespace>Order.Application</RootNamespace>
         <AssemblyName>Order.Application</AssemblyName>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
@@ -20,9 +19,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="RemoteOrder\Commands\" />
       <Folder Include="RemoteOrder\EventHandlers\" />
-      <Folder Include="RemoteOrder\NewFolder\" />
+      <Folder Include="RemoteOrder\Queries\GetRemoteOrder\" />
       <Folder Include="UserInfo\" />
     </ItemGroup>
 

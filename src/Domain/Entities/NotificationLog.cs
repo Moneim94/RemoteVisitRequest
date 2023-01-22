@@ -5,9 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Order.Domain.Entities;
-public class Country
+public class NotificationLog
 {
     public int Id { get; set; }
-    public string Name { get; set; }
-    public IList<Court> Courts { get; set; }
+    public string Message { get; set; }
+    public int NotificationTemplateId { get; set; }
+    public NotificationTemplate NotificationTemplate { get; set; }
+
 }
