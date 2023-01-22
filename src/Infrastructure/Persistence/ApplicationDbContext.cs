@@ -37,6 +37,11 @@ public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>, 
     public DbSet<UserInfo> UserInfo => Set<UserInfo>();
     public DbSet<Country> Country => Set<Country>();
     public DbSet<Court> Court => Set<Court>();
+
+    public DbSet<NotificationLog> NotificationLog => Set<NotificationLog>();
+
+    public DbSet<NotificationTemplate> NotificationTemplate => Set<NotificationTemplate>();
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
         builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

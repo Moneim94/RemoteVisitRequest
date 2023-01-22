@@ -17,6 +17,5 @@ public class UserInfo
     public int NationalityId { get; set; }
     public int GenderId { get; set; }
     public int CountryId { get; set; }
-    public Country Country { get; set; }
     public IList<VisitOrder> VisitOrders { get; set; }
 }
