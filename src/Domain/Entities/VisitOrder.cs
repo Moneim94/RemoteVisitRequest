@@ -8,9 +8,10 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace Order.Domain.Entities;
 public class VisitOrder
 {
+    public int Id { get; set; }
     public string VisitPurpose { get; set; }
     public string Reason { get; set; }
-    public Date Date { get; set; }
+    public DateTime Date { get; set; }
     public VisitType VisitType { get; set; }
     public string Note { get; set; }
     public int UserInfoId { get; set; }

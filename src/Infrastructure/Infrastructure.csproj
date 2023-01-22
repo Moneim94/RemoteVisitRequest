@@ -6,6 +6,8 @@
         <AssemblyName>Order.Infrastructure</AssemblyName>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GenerateRuntimeConfigurationFiles>True</GenerateRuntimeConfigurationFiles>
+
     </PropertyGroup>
 
     <ItemGroup>

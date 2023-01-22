@@ -16,6 +16,7 @@ public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>, 
     private readonly IMediator _mediator;
     private readonly AuditableEntitySaveChangesInterceptor _auditableEntitySaveChangesInterceptor;
 
+ 
     public ApplicationDbContext(
         DbContextOptions<ApplicationDbContext> options,
         IOptions<OperationalStoreOptions> operationalStoreOptions,
