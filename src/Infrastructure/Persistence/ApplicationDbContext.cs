@@ -35,7 +35,8 @@ public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>, 
     public DbSet<VisitOrder> VisitOrders => Set<VisitOrder>();
 
     public DbSet<UserInfo> UserInfo => Set<UserInfo>();
-
+    public DbSet<Country> Country => Set<Country>();
+    public DbSet<Court> Court => Set<Court>();
     protected override void OnModelCreating(ModelBuilder builder)
     {
         builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

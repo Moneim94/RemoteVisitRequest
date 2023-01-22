@@ -10,6 +10,7 @@ public interface IApplicationDbContext
     DbSet<TodoItem> TodoItems { get; }
     DbSet<VisitOrder> VisitOrders { get; }
     DbSet<UserInfo> UserInfo { get; }
-
+    DbSet<Court> Court { get;   }
+    DbSet<Country> Country { get; }
     Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 }
